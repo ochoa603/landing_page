@@ -1,0 +1,316 @@
+
+body{
+    height: auto;
+    font-family: sans-serif;
+}
+/* fisrt section*/
+.logoone {
+
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 400px;
+    flex-shrink: 0;
+}
+
+.headerone {
+
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    
+    padding-top: 15px;
+    width: 100%;
+    }
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 19px;
+    color: #e5e7eb;
+    
+    
+    
+    }
+
+.containerone{
+    font-family: roboto, sans-serif;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding-top: 110px;
+    padding-bottom: 130px;
+    }
+
+
+.subcontainerone{
+    
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 50px;
+    flex-shrink: 0;
+    padding-right: 80px;
+    }
+
+.subcontainerone  h1{
+    margin: 0;
+    font-size: 48px;
+    color: #f9faf8;
+    
+   
+
+}
+.subcontainerone  p{
+    font-size: 18px;
+    margin:0;
+    color: #e5e7eb;
+
+}
+
+.buttonone {
+  background-color: #3882F6;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  width: 140px;
+  
+  margin-top: 20px;
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  
+ 
+}
+
+.containerone img{
+    
+    width: 450px;
+    height: 220px;
+    margin-left: 50px;
+    flex-shrink: 0;
+
+}
+
+
+.placeholder{
+    width: 500px;
+    height: 220px;
+    background-color: darkgray;
+    align-items: center;
+    display:flex !important;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+
+
+/*this aply for the second section*/
+
+
+
+
+.two{
+
+    background-color: white;
+   
+    height: 420px;
+    
+}
+
+
+.headertwo{
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    font-family: roboto, sans-serif;
+}
+
+.card {
+    border: 1px solid #eee;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border-radius: 15px;
+    border-color: #3882F6;
+    width: 160px;
+    height: 160px;
+    border-width: 5px;
+    flex-shrink: 0;
+   
+  }
+
+  .containertwo{
+
+    display: flex;
+    gap: 50px;
+justify-content: center;
+   
+
+    
+  }
+
+  .cardcontainer{
+
+   width: 170px;
+
+   align-items: flex-end;
+    
+  }
+
+  .cardcontainer p{
+
+    padding-bottom: 120px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937bd;
+    font-weight: 100;
+  }
+  
+
+
+
+
+
+
+/*this aply for the third section*/
+
+
+
+
+
+
+
+
+
+
+
+
+.three{
+    display: flex;
+    background-color: #e5e7eb;
+   
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.containerthree {
+
+   
+   
+   width: 880px;
+  padding: 110px 0px;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+   
+   
+}
+
+.quote {
+
+    
+    font-weight: 100;
+    font-style: italic;
+    
+    font-size: 36px;
+    
+    color: #1f2937;
+    margin: 0;
+
+   
+    
+}
+
+.autor{
+
+
+   margin-left: auto;
+   font-size: 24px;
+   font-weight:bold;
+   margin-top: 0px;
+}
+
+
+
+
+/*this aply the fourth section*/
+
+
+.four{
+
+height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+.containerfour{
+
+    height: auto;
+    width:fit-content;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 8px;
+    align-items: center;
+    padding: 50px 110px;
+    gap: 120px;
+}
+
+
+
+.headerfour{
+    color:white !important;
+    font-size: 24px !important;
+    font-weight: bolder;
+    
+}
+
+.buttonfour {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 9px;
+    color: white;
+    width: 140px;
+    border-style:solid;
+    margin-top: 0px;
+    font-size: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    
+   
+  }
+
+.subcontfour p{
+
+    font-size: 18px;
+    color: #e5e7eb;
+    margin:0;
+}
+
+/*this aply thr footer*/
+
+footer{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding:  25px 150px;
+    color: #eee;
+    font-size: 20px;
+}
+
+
